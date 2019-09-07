@@ -1,7 +1,7 @@
 ;;; commentator-theme.el --- minimalist theme in which only comments appear in a different color
 
 ;; URL: https://github.com/rjmorris/emacs-commentator-theme
-;; Version: 20160916.0
+;; Version: 20161210.0
 ;; Author: Joey Morris
 
 ;;; Commentary:
@@ -41,6 +41,7 @@
    `(comint-highlight-prompt ((,class (:weight bold))))
 
    `(sh-quoted-exec ((,class (:foreground ,fg :background ,bg))))
+   `(sh-heredoc ((,class (:foreground ,fg :background ,bg))))
 
    `(cperl-nonoverridable-face ((,class (:foreground ,fg :background ,bg))))
    `(cperl-array-face ((,class (:foreground ,fg :background ,bg))))
